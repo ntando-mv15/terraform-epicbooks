@@ -1,0 +1,38 @@
+{
+  "name": "mvc_project2",
+  "version": "1.0.0",
+  "description": "The EpicBook: A Bookstore to buy books",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "./node_modules/.bin/eslint \"**/*.js \"",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravinmishraaws/theepicbook.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pravinmishraaws/theepicbook/issues"
+  },
+  "homepage": "https://github.com/pravinmishraaws/theepicbook#readme",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "accounting": "^0.4.1",
+    "eslint": "^7.4.0",
+    "eslint-plugin-import": "^2.22.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0",
+    "lodash": "^4.17.19",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-plugin-import": "^2.22.0",
+    "handlebars": "^4.5.0",
+    "nodemon": "^2.0.4"
+  }
+}

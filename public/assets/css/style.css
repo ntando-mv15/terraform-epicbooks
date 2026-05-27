@@ -1,0 +1,289 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.table-data {
+  vertical-align: top;
+}
+
+.card-title {
+  padding-bottom: 5px !important;
+  font-size: 18px !important;
+}
+
+.card-content {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+/* Important */
+#cart-items {
+  display: flex;
+  align-items: center;
+}
+/* Important */
+#cart-items p {
+  margin-left: auto;
+}
+/* Important */
+#nav {
+  position: fixed;
+  z-index: 996;
+}
+/* Important */
+#menu-slide-out {
+  padding-top: 10px;
+  z-index: 999;
+}
+
+#buttons {
+  width: 200px;
+}
+/* Important */
+#cart {
+  margin: 0 -10px 0 10px;
+}
+
+#home {
+  margin: 0 7px 0 15px;
+}
+
+.images {
+  filter: brightness(50%);
+}
+
+.categories {
+  padding-top: 10px;
+}
+
+.dropdown-content {
+  width: max-content;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.hidden {
+  display: none;
+}
+
+.notification-badge {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    right: auto;
+    top: -30px;
+    border-radius: 50px; 
+    text-align: center;
+    position: sticky;
+}
+
+#model-button{
+  margin-right: 25px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #home-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #home-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Override MaterializeCSS navbar color */
+.nav-wrapper {
+    background-color: #FF4444; 
+}
+
+.blue-grey {
+  background-color: #fff !important;
+  font-weight: bold; /* Bold text */
+}
+
+/* Specific styles for the 'Add to Cart' button */
+.cart-button {
+  background-color: #FF4444 !important; /* Black background color */
+  color: #fff !important; /* White text color */
+  justify-content: center; /* Centers flex items on the main axis */
+  /* No need to change the 'font-weight' here because Materialize CSS buttons are already bold */
+}
+
+/* If you have a hover effect you want to maintain or change, you can add: */
+.cart-button:hover {
+  background-color: #333 !important; /* Darker grey on hover for visual feedback */
+}
+
+.price-text {
+  color: #FF4444; /* Sets the text color to red */
+  font-size: 24px;
+}
+
+/* Targeting buttons within the categories class */
+.categories .btn {
+  background-color: #FF4444 !important; /* Black background */
+  color: #fff !important; /* White text */
+  /* Materialize CSS uses !important, so you might need to use it as well to override */
+}
+
+/* If you're using the waves effect from Materialize and want to change its color to white */
+.categories .btn.waves-effect.waves-light {
+  /* Override the waves color when the button is clicked */
+  --waves-color: #fff !important;
+}
+
+/* Checkout button specific style */
+.checkout-button {
+  background-color: #FF4444 !important; /* Overrides other styles due to specificity */
+}
+
+/* Footer copyright specific style */
+.footer-copyright {
+  background-color: #000 !important; /* Set background color to black */
+  color: #fff !important; /* Optional: Change text color to white for better visibility */
+}
+
+/* General body styles */
+body {
+  font-family: 'Open Sans', sans-serif; /* Use a font similar to the one in the image */
+  background-color: #f8f8f8; /* A light background */
+  color: #333; /* Dark grey text color for contrast */
+  line-height: 1.6;
+}
+
+/* Container for cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center cards in the container */
+  gap: 20px; /* Space between cards */
+  padding: 40px; /* Padding around the entire container */
+}
+
+/* Style for individual cards */
+.card {
+  background-color: #fff; /* White background for cards */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensures content fits within the rounded corners */
+  width: 300px; /* Fixed width */
+  margin-bottom: 20px; /* Space below each card */
+}
+
+/* Card image */
+.card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below the image */
+}
+
+/* Card header, typically contains the title or header of the card */
+.card-header {
+  padding: 16px;
+  background-color: #f1f1f1; /* Light grey background for the header */
+  color: #e74c3c; /* Red accent color for titles */
+  font-size: 1.25rem;
+  font-weight: 700; /* Bold font weight */
+}
+
+/* Card body, contains the main content of the card */
+.card-body {
+  padding: 16px;
+}
+
+/* Card titles */
+.card-title {
+  font-size: 1rem;
+  font-weight: 700; /* Bold font weight */
+  margin-bottom: 8px; /* Space below the title */
+}
+
+/* Card text, for any descriptive text */
+.card-text {
+  font-size: 0.875rem;
+  margin-bottom: 16px; /* Space below the text before the button or next element */
+  color: #555; /* Slightly darker text for readability */
+}
+
+/* The price tag style */
+.card-price {
+  font-size: 1.5rem;
+  color: #27ae60; /* Green color for prices */
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Original price, shown with strikethrough */
+.card-price-original {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #999; /* Grey color to indicate this is not the final price */
+  padding-right: 8px; /* Space before the discounted price */
+}
+
+/* Button styles */
+.btn {
+  background-color: #2ecc71; /* Green background for buttons */
+  color: #fff; /* White text on buttons */
+  text-transform: uppercase;
+  padding: 2px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #27ae60; /* A shade darker on hover */
+}
+
+/* Responsive grid for cards */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center; /* Stack cards on smaller screens */
+  }
+}
+
+/* Additional responsive adjustments as needed */
+@media (max-width: 480px) {
+  .card {
+    width: 90%; /* More width on very small screens */
+  }
+}
+
+
+
+
