@@ -1,0 +1,4 @@
+my_ip = ""                        # Insert my_ip for SSH
+key_name   = ""                   # Insert key-pair name                
+db_username = "admin"
+db_password = ""                  # Insert strong DB password
